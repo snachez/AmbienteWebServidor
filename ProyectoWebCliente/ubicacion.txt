@@ -1,0 +1,9 @@
+node server.js
+http://localhost:8000/FILENAME
+https://stackoverflow.com/questions/42927933/how-can-i-add-a-link-href-hyperlink-in-json-script
+http://www.anieto2k.com/2009/07/06/todo-lo-que-siempre-quisiste-saber-sobre-json/
+https://www.youtube.com/watch?v=O_dqpddX2yg
+https://www.youtube.com/watch?v=_5vdEUKNGOM
+https://www.youtube.com/watch?v=yTKIbBD0p4o
+http://www.aprenderaprogramar.com/foros/index.php?topic=3205.0
+https://www.youtube.com/watch?v=S_HUua3xwc8

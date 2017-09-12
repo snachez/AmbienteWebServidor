@@ -1,0 +1,96 @@
+@media(max-width:360px){
+	body{background:black;}
+ ul,ul li{margin:0;padding:0;list-style:none;margin-bottom:10px;}
+h1,h2,h3,p,form{margin:0;padding:0;margin-bottom:10px;}
+p{color:white;}
+a{color:#276EA6;}
+.clear{clear:both;}
+#datatable{width:1000px;clear:left;position: relative;left:5px;top:20px;height:750px;}
+img#starwars{width:100%;}
+#contenedor{width:100%;margin:0 auto;overflow:hidden;}
+#cabecera,#noticias,#publicidad,#secundario,#principal,#pie{font-family:arial;margin-top:10px;margin-bottom:10px;}
+#noticias,#publicidad,#secundario,#pie{background-color:#3A3939;border:2px solid #777;}
+#noticias,#publicidad,#secundario{text-align:center;}
+#cabecera{clear:both;background-color:white;height:3000px;width:102.3%;max-width:1500px;width:expression(document.body.clientWidth> 901? "900px":"auto");margin:0 auto;}
+#lateral{float:left;width:20%;position: relative;left:-80px;top:20px;}
+#contenido{float:right;width:78%;width:1300px;margin: 20px auto;position: relative;bottom:428px;left:40px;}
+#contenido #principal{float:left;width:80%;height:850px;background-color:#151515;}
+#contenido #secundario{float:right;width:40%;}
+#pie{clear:both;height:40px;}
+#cabecera #logo{float:left;}
+#contenido #principal .articulo img{width:100px;float:left;}
+#pie .enlaces{float:left;}
+#pie .copyright{float:right;}
+ul.navmenu-1{list-style-type: none;margin: 0;padding: 0;}
+ul.navmenu-1 li.active a,ul.navmenu-1 li.active:hover a{background-color: #4CAF50;color: white;}
+ul.navmenu-1{overflow: hidden;background-color: #333;}
+ul.navmenu-1 li{float:left;}
+ul.navmenu-1 li a{display: block;color: white;text-align: center;padding: 10px 12px;text-decoration: none;}
+ul.navmenu-1 li:hover a{background-color: #111;}
+}
+@media(max-width:768px){
+ul,ul li{margin:0;padding:0;list-style:none;margin-bottom:10px;}
+h1,h2,h3,p,form{margin:0;padding:0;margin-bottom:10px;}
+p{color:white;}
+a{color:#276EA6;}
+.clear{clear:both;}
+#datatable{width:1000px;clear:left;position: relative;left:5px;top:20px;height:750px;}
+img#starwars{width:100%;}
+#contenedor{width:100%;margin:0 auto;overflow:hidden;}
+#cabecera,#noticias,#publicidad,#secundario,#principal,#pie{font-family:arial;margin-top:10px;margin-bottom:10px;}
+#noticias,#publicidad,#secundario,#pie{background-color:#3A3939;border:2px solid #777;}
+#noticias,#publicidad,#secundario{text-align:center;}
+#cabecera{clear:both;background-color:white;height:3000px;width:102.3%;max-width:1500px;width:expression(document.body.clientWidth> 901? "900px":"auto");margin:0 auto;}
+#lateral{float:left;width:20%;position: relative;left:-80px;top:20px;}
+#contenido{float:right;width:78%;width:1300px;margin: 20px auto;position: relative;bottom:428px;left:40px;}
+#contenido #principal{float:left;width:80%;height:850px;background-color:#151515;}
+#contenido #secundario{float:right;width:40%;}
+#pie{clear:both;height:40px;}
+#cabecera #logo{float:left;}
+#contenido #principal .articulo img{width:100px;float:left;}
+#pie .enlaces{float:left;}
+#pie .copyright{float:right;}
+.container{position: relative;right:0px;width:768px;margin:20px auto;clear:left;}
+ul.navmenu-1{list-style-type: none;margin: 0;padding: 0;}
+ul.navmenu-1 li.active a,ul.navmenu-1 li.active:hover a{background-color: #4CAF50;color: white;}
+ul.navmenu-1{overflow: hidden;background-color: #333;}
+ul.navmenu-1 li{float:left;}
+ul.navmenu-1 li a{display: block;color: white;text-align: center;padding: 10px 12px;text-decoration: none;}
+ul.navmenu-1 li:hover a{background-color: #111;}
+}
+@media(min-width:1500px){
+	body{background: url(starwars3.jpg) no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+ul,ul li{margin:0;padding:0;list-style:none;margin-bottom:10px;}
+h1,h2,h3,p,form{margin:0;padding:0;margin-bottom:10px;}
+p{color:white;}
+a{color:#276EA6;}
+.clear{clear:both;}
+#datatable{width:1000px;clear:left;position: relative;left:5px;top:20px;height:750px;}
+img{border:none;width:90%;max-width:900px;width:expression(document.body.clientWidth> 901? "900px":"auto");margin:0 auto;}
+img#starwars{position: relative;right:-200px;border:none;width:100%;max-width:1500px;margin:0 auto;}
+#contenedor{width:90%;max-width:1920px;width:expression(document.body.clientWidth> 901? "900px":"auto");margin:0 auto;}
+#cabecera,#noticias,#publicidad,#secundario,#principal,#pie{font-family:arial;margin-top:10px;margin-bottom:10px;}
+#noticias,#publicidad,#secundario,#pie{background-color:#3A3939;border:2px solid #777;}
+#cabecera{clear:both;background-color:black;width:100%;max-width:1920px;width:expression(document.body.clientWidth> 901? "900px":"auto");margin:0 auto;}
+#lateral{float:left;width:20%;position: relative;left:-80px;top:20px;}
+#contenido{float:right;width:78%;width:1300px;margin: 20px auto;position: relative;bottom:428px;left:40px;}
+#contenido #principal{float:left;width:78%;height:850px;background-color:#151515;}
+#contenido #secundario{float:right;width:20%;}
+#pie{clear:both;height:40px;}
+#cabecera #logo{float:left;}
+#contenido #principal .articulo img{width:100px;float:left;}
+#pie .enlaces{float:left;}
+#pie .copyright{float:right;}
+.container{width:1500px;margin:20px auto;clear:left;}
+ul.navmenu-1{list-style-type: none;margin: 0;padding: 0;}
+ul.navmenu-1 li.active a,ul.navmenu-1 li.active:hover a{background-color: #4CAF50;color: white;}
+ul.navmenu-1{overflow: hidden;background-color: #333;}
+ul.navmenu-1 li{float:left;}
+ul.navmenu-1 li a{display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+ul.navmenu-1 li:hover a{background-color: #111;}
+ul.navmenu-1 li:last-child {float:right;}
+}
+/* === IMPORTANTE ===
+   A partir de aquí, se pueden añadir todos los estilos propios que 
+   sean necesarios.
+   ================= */
