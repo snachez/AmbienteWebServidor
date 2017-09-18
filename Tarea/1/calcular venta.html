@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>calcular venta</title>
+<meta charset="utf-8">
+</head>
+<body>
+<form method="post" action="calcular.php">
+<p> Shop tennis </p>
+<img src="nike.jpg" width="80" height="80">
+<input type="radio" name="radio" value="Nike" onclick="precio1()">Nike tenis rojas
+<p id="precio1"></p>
+<img src="converse.jpg" width="70" height="70">
+<input type="radio" name="radio" value="converse" onclick="precio2()">Converse azules
+<p id="precio2"></p>
+<img src="dr martens.png" width="60" height="60">
+<input type="radio" name="radio" value="dr martens" onclick="precio3()">Dr Martens edicion ilimitada
+<p id="precio3"></p>
+<br/>
+<img src="adidas.jpg" width="80" height="80">
+<input type="radio" name="radio" value="adidas" onclick="precio4()">Adidas negras
+<p id="precio4"></p>
+<img src="vans.jpg" width="60" height="60">
+<input type="radio" name="radio" value="vans" onclick="precio5()">Vans rojas estilo skater
+<p id="precio5"></p>
+<img src="puma.jpg" width="70" height="70">
+<input type="radio" name="radio" value="puma" onclick="precio6()">Puma tacos edicion ilimitada Lothar Matthaus 
+<p id="precio6"></p>
+<br/>
+<img src="reebok.jpeg" width="90" height="60">
+<input type="radio" name="radio" value="reebok" onclick="precio7()">Reebok one guide 2.0 running
+<p id="precio7"></p>
+<br/>
+<input type="text" size="28" name="pago" placeholder="Escriba el monto con que va a pagar">
+<input type="submit" value="Aceptar" />
+</form>
+</body>
+<script type="text/javascript">
+function precio1() {
+	document.getElementById("precio1").innerHTML = "Precio con iva: ₡"+23165;
+}
+function precio2() {
+	document.getElementById("precio2").innerHTML = "Precio con iva: ₡"+28250;
+}
+function precio3() {
+	document.getElementById("precio3").innerHTML = "Precio con iva: ₡"+73450;
+}
+function precio4() {
+	document.getElementById("precio4").innerHTML = "Precio con iva: ₡"+50850;
+}
+function precio5() {
+	document.getElementById("precio5").innerHTML = "Precio con iva: ₡"+30510;
+}
+function precio6() {
+	document.getElementById("precio6").innerHTML = "Precio con iva: ₡"+67800;
+}
+function precio7() {
+	document.getElementById("precio7").innerHTML = "Precio con iva: ₡"+48590;
+}
+</script>
+</html>
